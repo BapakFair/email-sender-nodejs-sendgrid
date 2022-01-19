@@ -6,7 +6,6 @@ sgMail.setApiKey(process.env.SENDGRID_API_KEY)
 
 const finalList = require('./emailData')
 
-console.log('finalList : ', finalList)
 const email = async () => {
     try {
         finalList.forEach( (emailData) => {
@@ -15,7 +14,7 @@ const email = async () => {
             const msg = {
                 from: {
                     name: 'test3',                          // isi dengan nama domain pengirim yang anda inginkan
-                    email: 'market@pay.panahserver.com'    // isi dengan email domain pengirim yang anda inginkan
+                    email: 'test3@test.com'    // isi dengan email domain pengirim yang anda inginkan
                 },
                 to: emailData,
                 subject: 'isi judul subject sesuai selera',
