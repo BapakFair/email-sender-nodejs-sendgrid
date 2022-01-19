@@ -15,3 +15,4 @@ setting your sender, from, html on email.js file
 setting your email list on emailData.js file
 
 to run this, type on terminal : node email.js
+
