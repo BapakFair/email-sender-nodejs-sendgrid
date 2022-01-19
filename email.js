@@ -17,7 +17,7 @@ const email = async () => {
                     name: 'test3',                          // isi dengan nama domain pengirim yang anda inginkan
                     email: 'market@pay.panahserver.com'    // isi dengan email domain pengirim yang anda inginkan
                 },
-                to: emailData, // isi dengan data email bentuk array
+                to: emailData,
                 subject: 'isi judul subject sesuai selera',
                 html:
                     `isi dengan html script anda`,
