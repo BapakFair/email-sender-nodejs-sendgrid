@@ -1,4 +1,4 @@
-simple sender email using nodejs & sendgrid
+simple sender looping one by one email using nodejs & sendgrid
 
 clone this repo
 
