@@ -9,8 +9,6 @@ const finalList = require('./emailData')
 const email = async () => {
     try {
         finalList.forEach( (emailData) => {
-            console.log(emailData)
-
             const msg = {
                 from: {
                     name: 'test3',                          // isi dengan nama domain pengirim yang anda inginkan
